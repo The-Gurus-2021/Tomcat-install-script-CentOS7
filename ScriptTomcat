@@ -54,7 +54,7 @@ sleep 2
 # Tomcat installation
 cd /opt
 wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.20/bin/apache-tomcat-10.0.20.tar.gz --no-check-certificate
-tar -xvzf /opt/apache-tomcat-10.0.20.tar.gz
+tar -xf /opt/apache-tomcat-10.0.20.tar.gz
 
 chmod +x /opt/apache-tomcat-10.0.20/bin/startup.sh
 chmod +x /opt/apache-tomcat-10.0.20/bin/shutdown.sh
